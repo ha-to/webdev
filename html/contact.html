@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Breath">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../logo/logo-gr.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script defer src="../js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Yoga</title>
+</head>
+<body>
+    <header class="header-main">
+        <div class="header-main-logo">
+            <a href="index.html">
+                <img src="../logo/logo-white.svg" alt="Yoga" width="60px" height="60px">
+            </a>
+        </div>
+        <div>
+            <nav class="header-main-nav">
+                <ul>
+                    <li> <a href="service.html">Our Service</a> </li>
+                    <li> <a href="schedule.html">Schedule</a> </li>
+                    <li> <a href="fqa.html">FQA</a> </li>
+                    <li> <a href="contact.html">Contact us</a> </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>    
+    
+    <div class="header-img">
+        <img src="../image/5.png" alt="yoga">
+    </div>
+
+    <main>
+
+        <section id="contact-us">
+            <div>
+                <div class="contact">
+                    <h1>Contact us</h1>
+                    <p><strong>Email: <a href="mailto:yoga@email.com">yoga@email.com</a></strong></p>
+                    <p>We always love to hear feedback on how we can change, improve and grow, so please feel free to get in touch!</p>
+                    <p>Checked our FAQ and still can’t find the answer? Drop us a line here and we’ll get right back to you.</p>
+                    <p>If you’d like to enquire about private classes or studio rental, please send us details of your requirements and we’ll be in touch.</p>
+                    <div>
+                        <img src="../image/yoga2.svg" alt="yoga">
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Email" required>
+                        <input type="text" id="phone" placeholder="Phone number">
+                        <textarea id="message" rows="5" placeholder="Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Breath. Flow. Connect</h3>
+            <p><strong>Contact us</strong> <br>
+            <a href="mailto:yoga@email.com">yoga@email.com</a></p>
+        </div>
+        <div>
+            <address>
+                1 Tran Kim Trong, Ward 22, <br>
+                Binh Thanh Dist, Ho Chi Minh City
+            </address>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../logo/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../logo/instagram.svg" alt="facebook"></a>
+        </div>
+    </footer>
+ 
+</body>
+</html>
